@@ -8,11 +8,11 @@ TO DO. Read from a file dump, to let try the code wit
 
 How to run
 
-   npm install
-   node app.js
+    npm install
+    node app.js
 
 open a browser window. 
 
-   http://localhost:3000/
+    http://localhost:3000/
 
 click on the start button
