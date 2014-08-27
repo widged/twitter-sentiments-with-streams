@@ -1,0 +1,15 @@
+{
+  "name": "socket.io-twitter-example",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ejs": "0.8.4",
+    "express": "2.5.4",
+    "eventemitter2": "~0.4.14",
+    "map-stream": "~0.1.0",
+    "ntwitter": "0.2.10",
+    "sentiment": "~1.0.1",
+    "socket.io": "~0.9.16",
+    "through": "~2.3.4"
+  }
+}

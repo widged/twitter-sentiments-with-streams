@@ -1,0 +1,21 @@
+sentiment-explorer  {
+  padding: 6px;
+}
+
+sentiment-explorer .controls {
+  padding-bottom: 32px;
+}
+
+sentiment-explorer ul.timezones {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+sentiment-explorer ul.timezones > li {
+	display: block;
+	float: left;
+    margin-right:1%;
+    width: 30%;
+}
+

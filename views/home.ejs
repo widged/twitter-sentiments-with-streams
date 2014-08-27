@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="fuelux">
+<head>
+  <meta charset="utf-8">
+   <title>Twitter Sentiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/socket.io/socket.io.js"></script>
+  <link href="css/app.css" type="text/css" rel="stylesheet">
+  <link href="css/x/sentiment-explorer.css" type="text/css" rel="stylesheet">
+  <link href="css/x/zone-sentiment.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Twitter Sentiments</h1>
+<div id="sentiment-explorer"></div>
+  <script type="text/javascript">window.serverData =  { words: "<%= words %>" };</script>
+  <script type="text/javascript" src="packages/common_module/CommonModule.js"></script>
+  <script type="text/javascript" src="packages/dom_component/DomComponent.js"></script>
+  <script type="text/javascript" src="js/zone-sentiment.js"></script>
+  <script type="text/javascript" src="js/sentiment-explorer.js"></script>
+  <script type="text/javascript">
+    var DomComponent = require('DomComponent');
+    var SentimentExplorer = require('SentimentExplorer');
+    DomComponent.embedComponent(new SentimentExplorer(), document.querySelector("#sentiment-explorer"));
+  </script>
+</body>
+</html>
