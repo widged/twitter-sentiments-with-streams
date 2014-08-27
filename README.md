@@ -10,3 +10,9 @@ How to run
 
    npm install
    node app.js
+
+open a browser window. 
+
+   http://localhost:3000/
+
+click on the start button
